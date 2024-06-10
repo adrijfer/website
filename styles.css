@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  /* height: 100%; */
+  font-family: Montserrat;
+}
+
+i {
+    margin-left: 5px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 1rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin-inline: 2rem;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  background-color: #282728;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+
+
+  .hamburger-menu {
+    display: flex;
+  }
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  /* background: url('tu-imagen-de-fondo.jpg') no-repeat center center/cover; */
+  color: #282728;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: left;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* SECTION */
+
+/* .works {
+    display: flexbox;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+} */
+
+.works__item {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #282728;
+  text-align: center;
+}
+
+.item--uno {
+  background: url("asstes/pexels-heftiba-1194420.jpg") no-repeat center
+    center/cover;
+}
+
+.item--dos {
+  background: url("asstes/Lagertha_S6-1.webp") no-repeat center center/cover;
+}
+
+.item--tres {
+  background: url("asstes/pexels-flodahm-699459.jpg") no-repeat center
+    center/cover;
+}
+
+/* FOOTER */
+.footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background: rgb(216, 216, 216);
+  color: #282728;
+  text-align: left;
+  padding: 60px 20px 20px 20px;
+}
+
+.footer-content {
+  max-width: 800px;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+h2 {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.chip-button {
+  background-color: #282728;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Montserrat;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chip-button:hover {
+  background-color: #333333;
+}
+
+.button--footer {
+    margin-top: 2rem;
+}
